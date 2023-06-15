@@ -36,16 +36,19 @@
                  android:layout_width="wrap_content"
                  android:layout_height="130dp"/>
             <TextView
+                android:id="@+id/text_cost1"
                 android:layout_gravity="center"
                 android:text="콜라 1000원"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <TextView
+                android:id="@+id/text_cnt1"
                 android:layout_gravity="center"
                 android:text="10개 남음"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <Button
+                android:id="@+id/btn1"
                 android:layout_gravity="center"
                 android:text="주문하기"
                 android:layout_width="wrap_content"
@@ -61,16 +64,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="130dp"/>
             <TextView
+                android:id="@+id/text_cost2"
                 android:layout_gravity="center"
                 android:text="사이다 1000원"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <TextView
+                android:id="@+id/text_cnt2"
                 android:layout_gravity="center"
                 android:text="10개 남음"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <Button
+                android:id="@+id/btn2"
                 android:layout_gravity="center"
                 android:text="주문하기"
                 android:layout_width="wrap_content"
@@ -92,16 +98,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="130dp"/>
                 <TextView
+                    android:id="@+id/text_cost3"
                     android:layout_gravity="center"
-                    android:text="콜라 1000원"
+                    android:text="탐스 1000원"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
                 <TextView
+                    android:id="@+id/text_cnt3"
                     android:layout_gravity="center"
                     android:text="10개 남음"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
                 <Button
+                    android:id="@+id/btn3"
                     android:layout_gravity="center"
                     android:text="주문하기"
                     android:layout_width="wrap_content"
@@ -117,16 +126,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="130dp"/>
                 <TextView
+                    android:id="@+id/text_cost4"
                     android:layout_gravity="center"
-                    android:text="사이다 1000원"
+                    android:text="솔의눈 1000원"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
                 <TextView
+                    android:id="@+id/text_cnt4"
                     android:layout_gravity="center"
                     android:text="10개 남음"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
                 <Button
+                    android:id="@+id/btn4"
                     android:layout_gravity="center"
                     android:text="주문하기"
                     android:layout_width="wrap_content"
