@@ -10,6 +10,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     Button btn_insert, btn_change, btn_add;
@@ -67,6 +69,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }else if(v.getId()==R.id.btn_change) {
             Intent intent = new Intent(MainActivity.this, ResultActivity.class);
             intent.putExtra("money", money);
+//            ArrayList<String[]> list = new ArrayList<>();
+//            list.add({dto.get(0).getName, drink_cnt1});
+//            if(drink_cnt1!=0) {
+//                intent.putExtra(dto.get(0).getName, )
+//            }
             startActivity(intent);
         }
 

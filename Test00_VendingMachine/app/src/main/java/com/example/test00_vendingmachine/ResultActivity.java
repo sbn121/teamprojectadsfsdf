@@ -4,9 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.EditText;
 import android.widget.Toast;
 
 public class ResultActivity extends AppCompatActivity {
+
+    EditText edt_change;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,7 +17,7 @@ public class ResultActivity extends AppCompatActivity {
         setContentView(R.layout.activity_result);
 
         Intent intent = getIntent();
-        
-        //Toast.makeText(MainActivity.this, money+"원 반환되었습니다.", Toast.LENGTH_SHORT).show();
+        int money = intent.getIntExtra("money", 0);
+        edt_change.setText("잔액 : "+money+"원");
     }
 }
