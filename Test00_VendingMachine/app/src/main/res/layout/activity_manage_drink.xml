@@ -19,6 +19,36 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"/>
         <TextView
+            android:text="음료명"
+            android:textSize="17dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:gravity="center"
+            android:layout_weight="1.5"
+            android:hint="수량"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:gravity="center"
+            android:layout_weight="1.5"
+            android:hint="가격"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_weight="0.5"
+            android:src="@drawable/dirnk1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <TextView
             android:textSize="17dp"
             android:gravity="center"
         android:layout_weight="1"
@@ -26,13 +56,15 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"/>
         <EditText
+            android:gravity="center"
         android:id="@+id/drink1_count"
         android:layout_weight="1.5"
         android:hint="수량"
         android:layout_width="0dp"
         android:layout_height="wrap_content"/>
         <EditText
-
+            android:gravity="center"
+            android:id="@+id/drink1_price"
             android:layout_weight="1.5"
             android:hint="가격"
             android:layout_width="0dp"
@@ -56,13 +88,15 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"/>
         <EditText
+            android:gravity="center"
             android:id="@+id/drink2_count"
             android:layout_weight="1.5"
             android:hint="수량"
             android:layout_width="0dp"
             android:layout_height="wrap_content"/>
         <EditText
-
+            android:gravity="center"
+            android:id="@+id/drink2_price"
             android:layout_weight="1.5"
             android:hint="가격"
             android:layout_width="0dp"
@@ -86,13 +120,15 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"/>
         <EditText
+            android:gravity="center"
             android:id="@+id/drink3_count"
             android:layout_weight="1.5"
             android:hint="수량"
             android:layout_width="0dp"
             android:layout_height="wrap_content"/>
         <EditText
-
+            android:gravity="center"
+            android:id="@+id/drink3_price"
             android:layout_weight="1.5"
             android:hint="가격"
             android:layout_width="0dp"
@@ -116,13 +152,15 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"/>
         <EditText
+            android:gravity="center"
             android:id="@+id/drink4_count"
             android:layout_weight="1.5"
             android:hint="수량"
             android:layout_width="0dp"
             android:layout_height="wrap_content"/>
         <EditText
-
+            android:gravity="center"
+            android:id="@+id/drink4_price"
             android:layout_weight="1.5"
             android:hint="가격"
             android:layout_width="0dp"
