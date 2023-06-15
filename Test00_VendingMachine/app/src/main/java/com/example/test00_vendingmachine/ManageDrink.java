@@ -25,7 +25,6 @@ public class ManageDrink extends AppCompatActivity {
         drink2_count = findViewById(R.id.drink2_count);
         drink3_count = findViewById(R.id.drink3_count);
         drink4_count = findViewById(R.id.drink4_count);
-
         btn_count_cancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
