@@ -8,12 +8,16 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import java.util.ArrayList;
+
 public class ManageDrink extends AppCompatActivity {
 
     Button btn_count_commit, btn_count_cancel;
     EditText drink1_count, drink2_count, drink3_count, drink4_count;
 
     Intent intent;
+
+    ArrayList<MainDTO> dto = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +41,7 @@ public class ManageDrink extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 intent = new Intent(ManageDrink.this, MainActivity.class);
+
 
 
                 startActivity(intent);
