@@ -33,6 +33,7 @@ public class ManageDrink extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 intent = new Intent(ManageDrink.this, MainActivity.class);
+
                 startActivity(intent);
             }
         });
